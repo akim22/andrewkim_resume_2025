@@ -1,6 +1,6 @@
-# andrewkim_resume_2025
-Andrew Kim's resume on a node.js website, to showcase experience utilizing modern technologies on a publically viewable platform
+# andrewkim_resume_2026
 
+Hello! Welcome to my personal resume website. Feel free to browse around to learn more about myself and my career!
 showcasing experience with:
 
 DevOps - utilizes github actions to deploy containerized node.js application SPA
