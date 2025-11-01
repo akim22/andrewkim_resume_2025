@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "export": "next build && node -e \"require('fs').mkdirSync('out',{recursive:true});require('fs').writeFileSync('out/.nojekyll','')\"",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "export": "npm run build && echo > out/.nojekyll",
+  "export:gh": "NEXT_PUBLIC_BASE_PATH=/andrewkim_resume_2025 npm run export"
+},
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",
     "@radix-ui/react-navigation-menu": "^1.2.14",
