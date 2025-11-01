@@ -25,22 +25,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Guide / Intro Card */}
-      <section className="bg-card border border-border rounded-lg p-6 shadow-sm max-w-3xl mx-auto">
-        <h2 className="text-2xl font-semibold mb-4">What I Focus On</h2>
-        <ol className="list-decimal list-inside text-muted-foreground space-y-2 text-base">
-          <li>Design secure, multi-environment CI/CD with zero-downtime rollouts.</li>
-          <li>Infrastructure as Code and automation for repeatable delivery.</li>
-          <li>Observability: metrics, logs, tracing, and actionable alerts.</li>
-          <li>Resilience and cost-aware architectures for real-world ops.</li>
-        </ol>
-        <div className="mt-5 flex justify-center">
-          <Button asChild>
-            <Link href="/projects">Explore Projects</Link>
-          </Button>
-        </div>
-      </section>
-
       {/* Highlights */}
       <section className="max-w-5xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4">Highlights</h2>
